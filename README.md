@@ -77,8 +77,8 @@ The recommendation system groups a Chinese Mandopop ballad, an Indian song, and 
 Both linear correlation analysis and Random Forest feature importance confirm the same finding: no audio feature strongly predicts popularity. The model explains 54% of variance — the remaining 46% is driven by artist fame, marketing, cultural moments, and virality that audio data simply cannot capture.
 
 
-```
----
+
+
 
 ## Model Performance
 
@@ -91,6 +91,6 @@ Both linear correlation analysis and Random Forest feature importance confirm th
 
 > **Note:** The model predicts popularity based on audio features only. Cultural factors such as artist fame, playlist placement, and social media virality are not captured and account for the remaining unexplained variance.
 
----
+
 
 *Built as a portfolio data science project demonstrating end-to-end workflow: data cleaning, EDA, unsupervised learning, recommendation systems, supervised learning, and app deployment.*
