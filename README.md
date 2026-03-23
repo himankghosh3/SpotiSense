@@ -26,7 +26,7 @@ The app allows you to:
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -40,7 +40,7 @@ The app allows you to:
 
 ---
 
-## 📊 Modules
+##  Modules
 
 ### Module 1 — Exploratory Data Analysis
 Loaded and cleaned 114,000 tracks. Explored popularity distribution, audio feature correlations, and identified a large spike of zero-popularity tracks that would later impact model performance.
@@ -59,7 +59,7 @@ Trained a Random Forest Regressor to predict popularity from audio features. Ach
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 **1. Popularity is heavily top-skewed**
 The vast majority of tracks on Spotify go undiscovered. Only a tiny fraction achieve mainstream popularity — reflecting the platform's demographic reality rather than any measure of musical quality.
@@ -80,7 +80,7 @@ Both linear correlation analysis and Random Forest feature importance confirm th
 ```
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 | Metric | Value |
 |---|---|
@@ -95,7 +95,7 @@ Both linear correlation analysis and Random Forest feature importance confirm th
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 **Spotify Tracks Dataset** by Maharshi Pandya
 - Source: [Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)
