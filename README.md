@@ -82,25 +82,14 @@ Both linear correlation analysis and Random Forest feature importance confirm th
 
 ##  Model Performance
 
-| Metric | Value |
-|---|---|
-| Algorithm | Random Forest Regressor |
-| Features | 9 audio features |
-| Training Set | 91,199 tracks (80%) |
-| Test Set | 22,800 tracks (20%) |
-| RMSE | 15.12 |
-| R² Score | 0.54 |
+ Algorithm = Random Forest Regressor 
+ Features = 9 audio features 
+ Training Set = 91,199 tracks (80%) 
+ Test Set = 22,800 tracks (20%) 
+ RMSE = 15.12 
+ R² Score = 0.54 
 
 > **Note:** The model predicts popularity based on audio features only. Cultural factors such as artist fame, playlist placement, and social media virality are not captured and account for the remaining unexplained variance.
-
----
-
-## Dataset
-
-**Spotify Tracks Dataset** by Maharshi Pandya
-- Source: [Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)
-- 114,000 tracks across 114 genres
-- 21 features including audio characteristics and metadata
 
 ---
 
