@@ -1,10 +1,10 @@
-# 🎵 SpotiSense — Music Analysis, Recommendation & Popularity Prediction
+# SpotiSense — Music Analysis, Recommendation & Popularity Prediction
 
 A complete end-to-end data science project that analyzes 113,999 Spotify tracks to uncover patterns in music, group songs by sound, recommend similar tracks, and predict popularity using machine learning.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 SpotiSense uses Spotify's audio features — danceability, energy, valence, tempo, acousticness and more — to answer five real questions about music:
 
@@ -18,54 +18,11 @@ The project is built in a structured, modular workflow across Jupyter Notebooks 
 
 ---
 
-## 🚀 Live App
-
-Run the app locally:
-
-```bash
-python -m streamlit run app.py
-```
-
 The app allows you to:
 - Search any song by name
 - View its full audio feature profile
 - Get 5 similar song recommendations
 - See its predicted vs actual popularity score
-
----
-
-## 🗂️ Project Structure
-
-```
-SpotiSense/
-│
-├── Data/
-│   └── cleaned_tracks.csv          # Processed dataset
-│
-├── notebooks/
-│   ├── 01_eda.ipynb                 # Exploratory Data Analysis
-│   ├── 02_genre_trends.ipynb        # Genre & Popularity Trends
-│   ├── 03_clustering.ipynb          # KMeans Clustering + PCA
-│   ├── 04_recommendation.ipynb      # Cosine Similarity Recommender
-│   └── 05_ml_model.ipynb            # Random Forest Popularity Predictor
-│
-├── outputs/                         # Saved visualizations
-│   ├── popularity_distribution.png
-│   ├── top_genres_popularity.png
-│   ├── correlation_heatmap.png
-│   ├── popularity_correlations.png
-│   ├── genre_popularity_comparison.png
-│   ├── audio_features_by_genre.png
-│   ├── radar_chart.png
-│   ├── elbow_curve.png
-│   ├── clusters_pca.png
-│   ├── actual_vs_predicted.png
-│   └── feature_importance.png
-│
-├── app.py                           # Streamlit web application
-├── requirements.txt                 # Dependencies
-└── README.md
-```
 
 ---
 
@@ -119,35 +76,8 @@ The recommendation system groups a Chinese Mandopop ballad, an Indian song, and 
 **5. Popularity cannot be reduced to audio features alone**
 Both linear correlation analysis and Random Forest feature importance confirm the same finding: no audio feature strongly predicts popularity. The model explains 54% of variance — the remaining 46% is driven by artist fame, marketing, cultural moments, and virality that audio data simply cannot capture.
 
----
 
-## ⚙️ Setup & Installation
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/your-username/SpotiSense.git
-cd SpotiSense
 ```
-
-**2. Install dependencies**
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn streamlit
-```
-
-**3. Download the dataset**
-
-Download the Spotify Tracks Dataset from [Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset) and place `dataset.csv` (renamed to `tracks.csv`) inside the `Data/` folder.
-
-**4. Run the notebooks in order**
-```
-01_eda.ipynb → 02_genre_trends.ipynb → 03_clustering.ipynb → 04_recommendation.ipynb → 05_ml_model.ipynb
-```
-
-**5. Launch the app**
-```bash
-python -m streamlit run app.py
-```
-
 ---
 
 ## 📈 Model Performance
